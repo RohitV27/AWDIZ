@@ -9,3 +9,5 @@
     //     return num1 + num2
     // }
     // add (5, 10)
+
+    console.log(40 % 2 == 0)
