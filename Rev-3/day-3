@@ -4,20 +4,34 @@
 
 // add(10, 20);
 
-var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-var target = 4;
+// var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// var target = 4;
 
-function search (target, array) {
-    var flag = false;
-for (var i = 0; i < array.length; i++) {
-    if (array[i] == target) {
-        console.log ("Target found");
-        flag = true;
-    }
-    }
-    if (flag == false) {
-      console.log("Target not found");
-    }
+// function search (target, array) {
+//     var flag = false;
+// for (var i = 0; i < array.length; i++) {
+//     if (array[i] == target) {
+//         console.log ("Target found");
+//         flag = true;
+//     }
+//     }
+//     if (flag == false) {
+//       console.log("Target not found");
+//     }
+// }
+
+// search(target, array);
+
+var nums = [-1, 0, 1, 2, -1, -4];
+
+function threeSum(nums) {
+for (var i = 0 ; i < nums.length; i ++) {
+    for (var j = i + 1; j < nums.length; j ++) { 
+        for (var k = j + 1; k < nums.length; k ++) {
+     }
 }
+}
+console.log("Function executed");
+};
 
-search(target, array);
+threeSum(nums);
